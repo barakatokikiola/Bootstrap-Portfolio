@@ -13,22 +13,20 @@
 </head>
 <body class="bg-light ">
 <!--Navbar Start-->
-<nav class="navbar navbar-light fixed-top bg-light shadow-sm">
-  <div class="container-lg">
-<a class="navbar-brand text-danger text-uppercase" href="#" style="font-weight:bold; font-size:2.5em;">b. o. t.</a>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-3 text-uppercase" href="#"><h2>Barakat Tajudeen</h2></a>
     <div class="btn-group">
-<button class="btn btn-secondary btn-danger" type="button" 
-id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-   <i class="fas fa-bars"></i>
-</button>
-<ul class="dropdown-menu dropdown-menu-end"
-   aria-labelledby="dropdownMenuButton">
-     <li><a class="dropdown-item" href="#home">Home</a></li>
-     <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-     <li><a class="dropdown-item" href="#contact">Contact</a></li>
-    <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>  
-</ul>
-    </div>
+      <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+        Menu
+      </button>
+      <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-lg-start">
+        <li><button class="dropdown-item" type="button">Home</button></li>
+        <li><button class="dropdown-item" type="button">About</button></li>
+        <li><button class="dropdown-item" type="button">Project</button></li>
+        <li><button class="dropdown-item" type="button">Contact</button></li>
+      </ul>
+    </div>   
   </div>
 </nav>
 <!--Navbar End-->
@@ -419,10 +417,10 @@ id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
       <!--Contact Section End-->
       
    <!--Reminder Banner Section Start-->
-      <section class="freelance bg-danger py-5" id="freelance">
+      <section class="freelance py-5" id="freelance">
         <div class="container-lg py-4">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 text-center d-block">
+          <div class="row justify-content-center bg-danger py-5 rounded">
+            <div class="col-lg-6 text-center d-block">
               <p class="text-light fs-5">Need a reminder to hire me?</p>
                     <input type="email" class="form-control form-control-md shadow-sm mb-4" placeholder="Your Email">
               <a href="#" class="btn btn-outline-light">Yes, Get Reminder</a>
